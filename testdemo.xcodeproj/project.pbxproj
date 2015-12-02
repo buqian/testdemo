@@ -13,6 +13,15 @@
 		AFD65C521C0F0B3E009C1EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C501C0F0B3E009C1EEC /* Main.storyboard */; };
 		AFD65C541C0F0B3E009C1EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C531C0F0B3E009C1EEC /* Assets.xcassets */; };
 		AFD65C571C0F0B3E009C1EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C551C0F0B3E009C1EEC /* LaunchScreen.storyboard */; };
+		AFD65C681C0F0BD9009C1EEC /* FLAnimatedImage-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C5F1C0F0BD9009C1EEC /* FLAnimatedImage-master */; };
+		AFD65C691C0F0BD9009C1EEC /* ImageGalleryView-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C601C0F0BD9009C1EEC /* ImageGalleryView-master */; };
+		AFD65C6A1C0F0BD9009C1EEC /* JKLLockScreenViewController-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C611C0F0BD9009C1EEC /* JKLLockScreenViewController-master */; };
+		AFD65C6B1C0F0BD9009C1EEC /* KMCGeigerCounter-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C621C0F0BD9009C1EEC /* KMCGeigerCounter-master */; };
+		AFD65C6C1C0F0BD9009C1EEC /* SDWebImage-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C631C0F0BD9009C1EEC /* SDWebImage-master */; };
+		AFD65C6D1C0F0BD9009C1EEC /* SlideMenuView-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C641C0F0BD9009C1EEC /* SlideMenuView-master */; };
+		AFD65C6E1C0F0BD9009C1EEC /* SVPullToRefresh-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C651C0F0BD9009C1EEC /* SVPullToRefresh-master */; };
+		AFD65C6F1C0F0BD9009C1EEC /* SwipeableCellView-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C661C0F0BD9009C1EEC /* SwipeableCellView-master */; };
+		AFD65C701C0F0BD9009C1EEC /* WechatShortVideo-master in Resources */ = {isa = PBXBuildFile; fileRef = AFD65C671C0F0BD9009C1EEC /* WechatShortVideo-master */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		AFD65C531C0F0B3E009C1EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD65C561C0F0B3E009C1EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFD65C581C0F0B3E009C1EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD65C5F1C0F0BD9009C1EEC /* FLAnimatedImage-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "FLAnimatedImage-master"; sourceTree = "<group>"; };
+		AFD65C601C0F0BD9009C1EEC /* ImageGalleryView-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ImageGalleryView-master"; sourceTree = "<group>"; };
+		AFD65C611C0F0BD9009C1EEC /* JKLLockScreenViewController-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "JKLLockScreenViewController-master"; sourceTree = "<group>"; };
+		AFD65C621C0F0BD9009C1EEC /* KMCGeigerCounter-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "KMCGeigerCounter-master"; sourceTree = "<group>"; };
+		AFD65C631C0F0BD9009C1EEC /* SDWebImage-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SDWebImage-master"; sourceTree = "<group>"; };
+		AFD65C641C0F0BD9009C1EEC /* SlideMenuView-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SlideMenuView-master"; sourceTree = "<group>"; };
+		AFD65C651C0F0BD9009C1EEC /* SVPullToRefresh-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SVPullToRefresh-master"; sourceTree = "<group>"; };
+		AFD65C661C0F0BD9009C1EEC /* SwipeableCellView-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SwipeableCellView-master"; sourceTree = "<group>"; };
+		AFD65C671C0F0BD9009C1EEC /* WechatShortVideo-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "WechatShortVideo-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +92,26 @@
 		AFD65C471C0F0B3E009C1EEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFD65C5E1C0F0BC3009C1EEC /* demo */,
 				AFD65C481C0F0B3E009C1EEC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD65C5E1C0F0BC3009C1EEC /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				AFD65C5F1C0F0BD9009C1EEC /* FLAnimatedImage-master */,
+				AFD65C601C0F0BD9009C1EEC /* ImageGalleryView-master */,
+				AFD65C611C0F0BD9009C1EEC /* JKLLockScreenViewController-master */,
+				AFD65C621C0F0BD9009C1EEC /* KMCGeigerCounter-master */,
+				AFD65C631C0F0BD9009C1EEC /* SDWebImage-master */,
+				AFD65C641C0F0BD9009C1EEC /* SlideMenuView-master */,
+				AFD65C651C0F0BD9009C1EEC /* SVPullToRefresh-master */,
+				AFD65C661C0F0BD9009C1EEC /* SwipeableCellView-master */,
+				AFD65C671C0F0BD9009C1EEC /* WechatShortVideo-master */,
+			);
+			name = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +173,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD65C571C0F0B3E009C1EEC /* LaunchScreen.storyboard in Resources */,
+				AFD65C6F1C0F0BD9009C1EEC /* SwipeableCellView-master in Resources */,
+				AFD65C691C0F0BD9009C1EEC /* ImageGalleryView-master in Resources */,
+				AFD65C6C1C0F0BD9009C1EEC /* SDWebImage-master in Resources */,
+				AFD65C6E1C0F0BD9009C1EEC /* SVPullToRefresh-master in Resources */,
+				AFD65C6A1C0F0BD9009C1EEC /* JKLLockScreenViewController-master in Resources */,
 				AFD65C541C0F0B3E009C1EEC /* Assets.xcassets in Resources */,
+				AFD65C6D1C0F0BD9009C1EEC /* SlideMenuView-master in Resources */,
 				AFD65C521C0F0B3E009C1EEC /* Main.storyboard in Resources */,
+				AFD65C681C0F0BD9009C1EEC /* FLAnimatedImage-master in Resources */,
+				AFD65C6B1C0F0BD9009C1EEC /* KMCGeigerCounter-master in Resources */,
+				AFD65C701C0F0BD9009C1EEC /* WechatShortVideo-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
