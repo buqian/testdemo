@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DF4FB4D1C0F255D0082C5C4 /* CircularScrollInertia-master in Resources */ = {isa = PBXBuildFile; fileRef = 2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */; };
 		AFD65C491C0F0B3E009C1EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD65C481C0F0B3E009C1EEC /* main.m */; };
 		AFD65C4C1C0F0B3E009C1EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD65C4B1C0F0B3E009C1EEC /* AppDelegate.m */; };
 		AFD65C4F1C0F0B3E009C1EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD65C4E1C0F0B3E009C1EEC /* ViewController.m */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "CircularScrollInertia-master"; sourceTree = "<group>"; };
 		AFD65C441C0F0B3E009C1EEC /* testdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD65C481C0F0B3E009C1EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFD65C4A1C0F0B3E009C1EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		AFD65C5E1C0F0BC3009C1EEC /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */,
 				AFD65C5F1C0F0BD9009C1EEC /* FLAnimatedImage-master */,
 				AFD65C601C0F0BD9009C1EEC /* ImageGalleryView-master */,
 				AFD65C611C0F0BD9009C1EEC /* JKLLockScreenViewController-master */,
@@ -180,6 +183,7 @@
 				AFD65C6A1C0F0BD9009C1EEC /* JKLLockScreenViewController-master in Resources */,
 				AFD65C541C0F0B3E009C1EEC /* Assets.xcassets in Resources */,
 				AFD65C6D1C0F0BD9009C1EEC /* SlideMenuView-master in Resources */,
+				2DF4FB4D1C0F255D0082C5C4 /* CircularScrollInertia-master in Resources */,
 				AFD65C521C0F0B3E009C1EEC /* Main.storyboard in Resources */,
 				AFD65C681C0F0BD9009C1EEC /* FLAnimatedImage-master in Resources */,
 				AFD65C6B1C0F0BD9009C1EEC /* KMCGeigerCounter-master in Resources */,
@@ -343,6 +347,7 @@
 				AFD65C5D1C0F0B3E009C1EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
