@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DEC2FBD1C171E5E00379C60 /* RTLabel-master in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC2FBB1C171E5E00379C60 /* RTLabel-master */; };
+		2DEC2FBE1C171E5E00379C60 /* TTTAttributedLabel-master in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC2FBC1C171E5E00379C60 /* TTTAttributedLabel-master */; };
 		2DF4FB4D1C0F255D0082C5C4 /* CircularScrollInertia-master in Resources */ = {isa = PBXBuildFile; fileRef = 2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */; };
 		AFD65C491C0F0B3E009C1EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD65C481C0F0B3E009C1EEC /* main.m */; };
 		AFD65C4C1C0F0B3E009C1EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD65C4B1C0F0B3E009C1EEC /* AppDelegate.m */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DEC2FBB1C171E5E00379C60 /* RTLabel-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "RTLabel-master"; sourceTree = "<group>"; };
+		2DEC2FBC1C171E5E00379C60 /* TTTAttributedLabel-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TTTAttributedLabel-master"; sourceTree = "<group>"; };
 		2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "CircularScrollInertia-master"; sourceTree = "<group>"; };
 		AFD65C441C0F0B3E009C1EEC /* testdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD65C481C0F0B3E009C1EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		AFD65C5E1C0F0BC3009C1EEC /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2DEC2FBB1C171E5E00379C60 /* RTLabel-master */,
+				2DEC2FBC1C171E5E00379C60 /* TTTAttributedLabel-master */,
 				2DF4FB4C1C0F255D0082C5C4 /* CircularScrollInertia-master */,
 				AFD65C5F1C0F0BD9009C1EEC /* FLAnimatedImage-master */,
 				AFD65C601C0F0BD9009C1EEC /* ImageGalleryView-master */,
@@ -180,6 +186,7 @@
 				AFD65C691C0F0BD9009C1EEC /* ImageGalleryView-master in Resources */,
 				AFD65C6C1C0F0BD9009C1EEC /* SDWebImage-master in Resources */,
 				AFD65C6E1C0F0BD9009C1EEC /* SVPullToRefresh-master in Resources */,
+				2DEC2FBD1C171E5E00379C60 /* RTLabel-master in Resources */,
 				AFD65C6A1C0F0BD9009C1EEC /* JKLLockScreenViewController-master in Resources */,
 				AFD65C541C0F0B3E009C1EEC /* Assets.xcassets in Resources */,
 				AFD65C6D1C0F0BD9009C1EEC /* SlideMenuView-master in Resources */,
@@ -188,6 +195,7 @@
 				AFD65C681C0F0BD9009C1EEC /* FLAnimatedImage-master in Resources */,
 				AFD65C6B1C0F0BD9009C1EEC /* KMCGeigerCounter-master in Resources */,
 				AFD65C701C0F0BD9009C1EEC /* WechatShortVideo-master in Resources */,
+				2DEC2FBE1C171E5E00379C60 /* TTTAttributedLabel-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
