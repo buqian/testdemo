@@ -21,7 +21,7 @@
 		[self.contentView addSubview:_rtLabel];
 		[_rtLabel setBackgroundColor:[UIColor clearColor]];
         
-        [self setSelectionStyle:UITableViewCellSelectionStyleNone];
+//        [self setSelectionStyle:UITableViewCellSelectionStyleNone]; 
     }
     return self;
 }

@@ -362,6 +362,8 @@
 					
 					RTLabelButton *button = [[RTLabelButton alloc] initWithFrame:CGRectMake(primaryOffset+origin.x, height, button_width, ascent+descent)];
 					
+//                    button.layer.borderWidth = 1;
+//                    button.backgroundColor = [UIColor whiteColor];
 					[button setBackgroundColor:[UIColor colorWithWhite:0 alpha:0]];
 					[button setComponentIndex:linkableComponents.componentIndex];
 					
@@ -420,19 +422,19 @@
 		{
 			if ([value caseInsensitiveCompare:@"left"] == NSOrderedSame)
 			{
-				textAlignment = kCTLeftTextAlignment;
+				textAlignment = kCTTextAlignmentLeft;
 			}
 			else if ([value caseInsensitiveCompare:@"right"] == NSOrderedSame)
 			{
-				textAlignment = kCTRightTextAlignment;
+				textAlignment = kCTTextAlignmentRight;
 			}
 			else if ([value caseInsensitiveCompare:@"justify"] == NSOrderedSame)
 			{
-				textAlignment = kCTJustifiedTextAlignment;
+				textAlignment = kCTTextAlignmentJustified;
 			}
 			else if ([value caseInsensitiveCompare:@"center"] == NSOrderedSame)
 			{
-				textAlignment = kCTCenterTextAlignment;
+				textAlignment = kCTTextAlignmentCenter;
 			}
 		}
 		else if ([key caseInsensitiveCompare:@"indent"] == NSOrderedSame)
@@ -513,7 +515,7 @@
 	int lineBreakMode = _lineBreakMode;
 	int lineSpacing = (int)_lineSpacing;
 
-    textAlignment = kCTCenterTextAlignment;
+    textAlignment = kCTTextAlignmentCenter;
 	
 	CTParagraphStyleSetting theSettings[] =
 	{
@@ -733,7 +735,7 @@
 - (void)onButtonPressed:(id)sender
 {
 	RTLabelButton *button = (RTLabelButton*)sender;
-	[self setCurrentSelectedButtonComponentIndex:-1];
+//	[self setCurrentSelectedButtonComponentIndex:-1];
 	[self setNeedsDisplay];
 
 	if ([self.delegate respondsToSelector:@selector(rtLabel:didSelectLinkWithURL:)])

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DEC2FC71C1720E600379C60 /* TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC2FC41C17208B00379C60 /* TTTAttributedLabel.framework */; };
 		B6EDD905BC31B7CDBC772A6E /* libPods-Espressos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AA1C6D161D3700C394B3E8 /* libPods-Espressos.a */; };
 		CBB8BA972A3E9E100E5BEC20 /* libPods-TTTAttributedLabelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5661A15C6EB332A5F384694 /* libPods-TTTAttributedLabelTests.a */; };
 		E957D6671B2F9A1800090F1E /* AppTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E957D6661B2F9A1800090F1E /* AppTestDelegate.m */; };
@@ -26,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2DEC2FC31C17208B00379C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC2FBF1C17208B00379C60 /* TTTAttributedLabel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52E64271B14C0BF002709D4;
+			remoteInfo = TTTAttributedLabel;
+		};
+		2DEC2FC51C1720AB00379C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC2FBF1C17208B00379C60 /* TTTAttributedLabel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A52E64261B14C0BF002709D4;
+			remoteInfo = TTTAttributedLabel;
+		};
 		E9B3C6ED1A32C2DB00D43DF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F877A35313782AF10022A8AB /* Project object */;
@@ -37,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		243B6281D87C3C8A26DE726F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2DEC2FBF1C17208B00379C60 /* TTTAttributedLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTTAttributedLabel.xcodeproj; path = ../Carthage/TTTAttributedLabel.xcodeproj; sourceTree = "<group>"; };
 		2E90FFBC1DDA1DE490C5256A /* Pods-TTTAttributedLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTTAttributedLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTTAttributedLabelTests/Pods-TTTAttributedLabelTests.release.xcconfig"; sourceTree = "<group>"; };
 		660187FBA08BD9C0FFBEAE6D /* Pods-Espressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Espressos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Espressos/Pods-Espressos.release.xcconfig"; sourceTree = "<group>"; };
 		AB368CC0B70138BF59EF5687 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEC2FC71C1720E600379C60 /* TTTAttributedLabel.framework in Frameworks */,
 				F83BDEAA18A5C2DF003893B2 /* QuartzCore.framework in Frameworks */,
 				F877A39513782FC10022A8AB /* CoreText.framework in Frameworks */,
 				F877A36113782AF10022A8AB /* UIKit.framework in Frameworks */,
@@ -95,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DEC2FC01C17208B00379C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC2FC41C17208B00379C60 /* TTTAttributedLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E737325308CE2E195C13470A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +153,7 @@
 		F877A35113782AF10022A8AB = {
 			isa = PBXGroup;
 			children = (
+				2DEC2FBF1C17208B00379C60 /* TTTAttributedLabel.xcodeproj */,
 				E9B3C6F51A32C5B100D43DF9 /* Images.xcassets */,
 				F877A36613782AF10022A8AB /* Classes */,
 				E9B3C6E81A32C2DB00D43DF9 /* TTTAttributedLabelTests */,
@@ -242,6 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2DEC2FC61C1720AB00379C60 /* PBXTargetDependency */,
 			);
 			name = Espressos;
 			productName = TTTAttributedLabelExample;
@@ -273,6 +300,12 @@
 			mainGroup = F877A35113782AF10022A8AB;
 			productRefGroup = F877A35D13782AF10022A8AB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2DEC2FC01C17208B00379C60 /* Products */;
+					ProjectRef = 2DEC2FBF1C17208B00379C60 /* TTTAttributedLabel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F877A35B13782AF10022A8AB /* Espressos */,
@@ -280,6 +313,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2DEC2FC41C17208B00379C60 /* TTTAttributedLabel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TTTAttributedLabel.framework;
+			remoteRef = 2DEC2FC31C17208B00379C60 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E9B3C6E51A32C2DB00D43DF9 /* Resources */ = {
@@ -388,6 +431,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2DEC2FC61C1720AB00379C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			targetProxy = 2DEC2FC51C1720AB00379C60 /* PBXContainerItemProxy */;
+		};
 		E9B3C6EE1A32C2DB00D43DF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F877A35B13782AF10022A8AB /* Espressos */;
