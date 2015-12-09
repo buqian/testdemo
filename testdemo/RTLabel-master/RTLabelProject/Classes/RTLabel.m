@@ -180,6 +180,11 @@
 {
 	[self render];
 }
+//
+//+ (Class)layerClass
+//{
+//    return [CATextLayer class];
+//}
 
 - (void)render
 {
@@ -316,6 +321,11 @@
     
     // Create the framesetter with the attributed string.
     CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString(attrString);
+    
+//    CATextLayer *layer = (CATextLayer *)self.layer;
+//    layer.string = (__bridge id _Nullable)(attrString);
+//    layer.wrapped = YES;
+    
     CFRelease(attrString);
 	
     // Initialize a rectangular path.
@@ -362,7 +372,7 @@
 					
 					RTLabelButton *button = [[RTLabelButton alloc] initWithFrame:CGRectMake(primaryOffset+origin.x, height, button_width, ascent+descent)];
 					
-//                    button.layer.borderWidth = 1;
+                    button.layer.borderWidth = 1;
 //                    button.backgroundColor = [UIColor whiteColor];
 					[button setBackgroundColor:[UIColor colorWithWhite:0 alpha:0]];
 					[button setComponentIndex:linkableComponents.componentIndex];
